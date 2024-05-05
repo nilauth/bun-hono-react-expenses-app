@@ -4,6 +4,11 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  // root: path.join(__dirname, "src"),
+  // build: {
+  //   // outDir: "dist",
+  //   entry: path.resolve(__dirname, "./src/main.tsx"),
+  // },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
