@@ -24,7 +24,7 @@ const App = () => {
             <h1 className='text-4xl'>Total spent</h1>
           </CardTitle>
           <CardDescription>
-            <p className='text-lg'>The total amount you-ve spent</p>
+            <p className='text-lg'>The total amount you-ve spent:</p>
           </CardDescription>
         </CardHeader>
         <CardContent>
